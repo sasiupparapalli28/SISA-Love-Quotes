@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISA Love Quotes</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            overflow: hidden;
+        }
+
+        .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        .scroll-container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            max-height: 80%;
+            overflow-y: auto;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .column {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .quote {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <video class="background-video" autoplay loop muted>
+        <source src="background.mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="content">
+        <div class="scroll-container">
+            <div class="column">
+                <div class="quote">1. Love is the bridge between two hearts.</div>
+                <div class="quote">2. In your smile, I see something more beautiful than the stars.</div>
+                <div class="quote">3. You are my today and all of my tomorrows.</div>
+                <div class="quote">4. Every love story is beautiful, but ours is my favorite.</div>
+                <div class="quote">5. Your love is the melody to my heart's song.</div>
+                <div class="quote">6. With you, every moment is a treasure.</div>
+                <div class="quote">7. You are the reason I believe in love.</div>
+                <div class="quote">8. Love grows deeper with every passing day.</div>
+                <div class="quote">9. You complete me in every way.</div>
+                <div class="quote">10. My heart is perfect because you are inside.</div>
+                <div class="quote">11. Together is my favorite place to be.</div>
+                <div class="quote">12. Your love is my greatest adventure.</div>
+                <div class="quote">13. You are my sunshine on cloudy days.</div>
+                <div class="quote">14. Loving you is my favorite thing to do.</div>
+                <div class="quote">15. You make my heart skip a beat.</div>
+            </div>
+
+            <div class="column">
+                <div class="quote">16. Every day with you feels like a fairy tale.</div>
+                <div class="quote">17. Your love lights up my darkest nights.</div>
+                <div class="quote">18. I fall in love with you more each day.</div>
+                <div class="quote">19. You are my forever and always.</div>
+                <div class="quote">20. My love for you is endless.</div>
+                <div class="quote">21. Being with you feels like home.</div>
+                <div class="quote">22. You are the love I've always dreamed of.</div>
+                <div class="quote">23. Your smile is my favorite sight.</div>
+                <div class="quote">24. I cherish every moment we share.</div>
+                <div class="quote">25. You are my heart's desire.</div>
+                <div class="quote">26. Our love is timeless and true.</div>
+                <div class="quote">27. You make my world a better place.</div>
+                <div class="quote">28. I love you more than words can express.</div>
+                <div class="quote">29. With you, I've found my happily ever after.</div>
+                <div class="quote">30. Your love is my greatest blessing.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
